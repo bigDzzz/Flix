@@ -143,6 +143,7 @@
                     <tabBarItem key="tabBarItem" title="Now Playing" image="now_playing_tabbar_item" id="xr3-5n-Pnb"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aSA-5g-rfY">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -188,7 +189,7 @@
                                         </view>
                                         <connections>
                                             <outlet property="posterView" destination="Yrr-Cz-DJG" id="OLN-Fr-70w"/>
-                                            <segue destination="2v8-LI-Mtd" kind="showDetail" identifier="DetailViewSegue" id="Pxe-uZ-6xO"/>
+                                            <segue destination="2v8-LI-Mtd" kind="show" identifier="DetailViewSegue" id="Pxe-uZ-6xO"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -213,6 +214,7 @@
                     <tabBarItem key="tabBarItem" title="Superhero" image="superhero_tabbar_item" id="7vC-re-urk"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AvM-IQ-Wcp">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
